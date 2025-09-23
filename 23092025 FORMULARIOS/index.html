@@ -6,9 +6,17 @@
     <title>Formularios</title>
 </head>
 
-<body>
-    <form id="formulario">
+<body> <!-- AQUI NO BODY, CONTEM TUDO QUE VAI APARECER NA TELA-->
+
+    <form id="formulario"> <!--AQUI ESTOU CRIANDO UM FORMULARIO-->
+
         <h2>Dados Pessoais</h2>
+
+        <!-- AQUI NOS INPUT SÃO OS CAMPOS, NO TYPE "TEXT", SIGNIFICA QUE O CAMPO É UM TEXTO SISMPLES
+         ESSE ID, PERMITE QUE O CAMPO PODE SER ACESSADO NO CSS OU JS, 
+         O PLACEHOLDER, MOSTRA UMA DICA DENTRO DO CAMPO ANTES DE DIGITAR 
+         E O REQUIIRED, TORNA O CAMPO OBRIGATORIO-->
+         
         <input type="text" id="nome" placeholder="Nome completo" required>
         <input type="text" id="cpf" placeholder="CPF" required>
         <input type="text" id="rg" placeholder="RG" required>
