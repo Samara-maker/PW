@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+input {
+    display: block;
+    margin: 10px 0;
+    padding: 8px;
+    width: 300px;
+}
+
+input.valid { border: 2px solid green; }
+input.invalid { border: 2px solid red; }
+input.shake { animation: shake 0.5s; }
+
+span { font-size: 12px; }
+span.erro { color: #dc3545; }
+span.sucesso { color: #28a745; }
+
+button { margin: 5px 5px 15px 0; padding: 8px 12px; cursor: pointer; }
+
+#resultado { margin-top: 20px; padding: 10px; border: 1px solid #ccc; }
+
+.resultado.sucesso { background-color: #d4edda; color: #155724; }
+.resultado.erro { background-color: #f8d7da; color: #721c24; }
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-5px); }
+  40%, 80% { transform: translateX(5px); }
+}
