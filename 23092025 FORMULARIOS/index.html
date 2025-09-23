@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+
+<body>
+    <form id="formulario">
+        <h2>Dados Pessoais</h2>
+        <input type="text" id="nome" placeholder="Nome completo" required>
+        <input type="text" id="cpf" placeholder="CPF" required>
+        <input type="text" id="rg" placeholder="RG" required>
+        <input type="text" id="dataNascimento" placeholder="DD/MM/AAAA" required>
+
+        <h2>Contato</h2>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="text" id="telefone" placeholder="Telefone" required>
+        <input type="text" id="whatsapp" placeholder="WhatsApp">
+
+        <h2>Endereço</h2>
+        <input type="text" id="cep" placeholder="CEP" required>
+        <input type="text" id="numero" placeholder="Número da casa" required>
+
+        <h2>Dados Específicos</h2>
+        <input type="password" id="senha" placeholder="Senha" required>
+        <input type="password" id="confirmaSenha" placeholder="Confirme a senha" required>
+        <input type="text" id="placa" placeholder="Placa do veículo" required>
+        <input type="text" id="pis" placeholder="PIS/PASEP" required>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
